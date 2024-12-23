@@ -1,3 +1,5 @@
+# GDVC (Geometery Dash Version Control, a Discord bot)
+
 ## Context
 
 This is built for a game called Geometry Dash, where user-created levels are uploaded to and downloaded from game servers. I used to manage a lot of collaborative projects where 10+ people would be communicating over messaging platforms like Discord and working on a single level. But the way that levels are shared makes it difficult to manage the most recent version of the level, and I had to take care of a lot of that manually.
