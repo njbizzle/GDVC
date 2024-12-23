@@ -26,7 +26,7 @@ This was by far my most involved Python project at the time. To implement a lot 
 
 I also hosted the bot myself. I have a Raspberry Pi which was running the script and I also built a lot of tools to help me maintain the program while it was running. 
 
-## Some Screenshots of it Working
+## Some Screenshots of It Working
 
 ### A project is created, then the initial branch was checked out
 <img src="https://cdn.discordapp.com/attachments/1007896286026018938/1320591853346623591/Screenshot_2024-12-22_at_7.20.06_PM.png?ex=676a2881&is=6768d701&hm=9cec5ef2bb3f0a612bbe2b23c5c35d959de4c63a89c079e9ab1cacdadefcbbc1&">
