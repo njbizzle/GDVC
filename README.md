@@ -10,7 +10,7 @@ I love running these level collaboration projects, but they just need constant m
 
 This is a Discord chat bot that takes a lot of inspiration from software like Git to make a sort of version control to manage larger projects. I wanted to make a bot that would be able to manage multiple projects between multiple communities, keep track of their working level IDs (which allows someone to copy a level off the game server), and then have the ability to push the edited version back to the project, as well as record information about the changes that were made. There are also features to make sure that only one person checks out the level at a time, and in case the level splits and forms a bit of a tree, the ability to visualize all the changes and prune these extra branches.
 
-Sadly it didn't see any use outside of me and a few other people running test despite being in a working state (last time I checked).
+Sadly it didn't see any use outside of me and a few other people running tests despite being in a working state (last time I checked).
 
 ## Tools used
 
@@ -18,7 +18,7 @@ I made use of the Discord.py Python library which uses the asyncio library. Disc
 
 ## Aspects That I'm Proud of
 
-This is a project where I'm very proud of my implementation and the code that I wrote. A lot of thought went into design for this project, and it's ended up being extraordinarily robust, and it really needs to be if I'm letting anyone interact with it.
+This is a project where I'm very proud of my implementation and the code that I wrote. A lot of thought went into design for this project, and it ended up being extraordinarily robust, and it really needs to be if I'm letting anyone interact with it.
 
 Also since there is a lot of information that needs to be stored in a more permanent way, everything needs to be saved to and loaded from some other file. The solution I came up with was to make a system to serialize all my Python objects into a JSON file and then load all the information back when the program starts up. With features like projects existing in different Discord communities, permissions, multiple projects, and complex trees of commits, this became a pretty large task, but I think I came up with some pretty elegant solutions.
 
@@ -33,4 +33,3 @@ I also hosted the bot myself. I have a Raspberry Pi which was running the script
 
 ### All Commits on an Existing Project Are Displayed
 <img src="pictures/view.png">
-
