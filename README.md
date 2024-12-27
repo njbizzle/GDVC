@@ -1,4 +1,4 @@
-# GDVC (Geometery Dash Version Control, a Discord bot)
+# GDVC (Geometry Dash Version Control, a Discord bot)
 
 ## Context
 
