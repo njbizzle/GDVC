@@ -9,7 +9,7 @@ colorlinks: true
 
 ## Context
 
-This is built for a game called Geometry Dash, in which user-created levels are uploaded to and downloaded from game servers. I've managed a lot of collaborative projects where 10+ people would be communicating over messaging platforms like Discord to work on a single level. The way that levels are shared makes it difficult to manage the most recent versions of levels, and I was something that I previously managed manually.
+This is built for a game called Geometry Dash, in which user-created levels are uploaded to and downloaded from game servers. I've managed a lot of collaborative projects where 10+ people would be communicating over messaging platforms like Discord to work on a single level. The way that levels are shared makes it difficult to manage the most recent versions of levels, and it was something that I previously managed manually.
 
 I love running these level collaboration projects, but they need constant maintenance over months, and I knew for a fact that there would be long periods of time where I just wouldn't have the time. So this was a way of automating it, allowing me to spend time more intermittently on the creative aspects, rather than constantly just making sure people weren't stepping on each other.
 
@@ -27,7 +27,7 @@ I made use of the Discord.py Python library which uses the asyncio library. Disc
 
 This is a project where I'm very proud of my implementation and the code that I wrote. A lot of thought went into design for this project, and it ended up being extraordinarily robust, and it really needs to be if I'm letting anyone interact with it.
 
-Since there is a lot of information that needs to be stored in a more permanent way, everything needs to be saved to and loaded from some file. The solution I came up with was to make a system to serialize all my Python objects into a JSON file and then load all the information back when the program starts up. With features such as projects in different Discord communities, permissions, and complex commit trees, this became a very large task, but I think I my solution is pretty elegant.
+Since there is a lot of information that needs to be stored in a more permanent way, everything needs to be saved to and loaded from some file. The solution I came up with was to make a system to serialize all my Python objects into a JSON file and then load all the information back when the program starts up. With features such as projects in different Discord communities, permissions, and complex commit trees, this became a very large task, but I think my solution is pretty elegant.
 
 This is by far my most involved Python project. To implement a lot of these features I had to do a lot of research into the inner workings of the language, especially for the JSON serialization. I also spent a lot of time learning the asyncio library, which ended up being much more complicated than I expected. I didn't end up making use of the more complicated features much, but it's a really cool library that operates on a super low-level, and I'm happy this project gave me an excuse to look into it a lot more.
 
