@@ -36,7 +36,7 @@ I also hosted the bot myself. I have a Raspberry Pi which was running the script
 ## Some Screenshots of It Working
 
 ### A Project is Created, Then the Initial Branch Was Checked Out
-<img src="pictures/create.png">
+![](pictures/create.png)
 
 ### All Commits on an Existing Project Are Displayed
-<img src="pictures/view.png">
+![](pictures/view.png)
