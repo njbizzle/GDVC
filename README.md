@@ -1,8 +1,3 @@
----
-geometry: margin=3cm
-colorlinks: true
----
-
 # GDVC (Geometry Dash Version Control), a Discord chatbot
 
 #### A Discord chatbot that tracks change in collaborative level creation for the game Geometry Dash.
