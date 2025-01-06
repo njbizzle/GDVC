@@ -19,7 +19,7 @@ This is a Discord bot that takes inspiration from software like Git to implement
 
 Sadly it didn't see any use outside of me and a few other people running tests, despite being in a working state.
 
-## Tools used
+## Tools Used
 
 I made use of the Discord.py Python library which uses the asyncio library. Discord.py is an extensive library, but many features that go beyond reading and sending messages were reimplemented by me for fun.
 
